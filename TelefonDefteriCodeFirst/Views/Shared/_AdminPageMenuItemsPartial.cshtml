@@ -1,0 +1,23 @@
+﻿@if (Session["login"] != null)
+{
+    <li>
+        <a href="/Customers/Index">
+            <span class="glyphicon glyphicon-user"></span> Customers
+        </a>
+    </li>
+    <li>
+        <a href="/Addresses/Index">
+            <span class="glyphicon glyphicon-home"></span> Addresses
+        </a>
+    </li>
+    <li>
+        <a href="/Phones/Index">
+            <span class="glyphicon glyphicon-phone"></span> Phones
+        </a>
+    </li>
+    <li>
+        <a href="/SysUsers/Index">
+            <span class="glyphicon glyphicon-lock"></span> Users
+        </a>
+    </li>
+}
